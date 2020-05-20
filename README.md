@@ -5,7 +5,7 @@ notes on presentations from infoq
 
 https://www.youtube.com/watch?v=CZ3wIuvmHeM
 
-CAP Theorem - https://en.wikipedia.org/wiki/CAP_theorem
+### CAP Theorem - https://en.wikipedia.org/wiki/CAP_theorem
 
 "In theoretical computer science, the CAP theorem, also named Brewer's theorem after computer scientist Eric Brewer, states that it is impossible for a distributed data store to simultaneously provide more than two out of the following three guarantees:[1][2][3]
 
@@ -18,4 +18,10 @@ When a network partition failure happens should we decide to
 * Cancel the operation and thus decrease the availability but ensure consistency
 * Proceed with the operation and thus provide availability but risk inconsistency"
 
-Everything fails
+Everything fails be prepared
+
+### What is a stateless services?
+* Not a cache or a database
+* Frequently accessed metadata
+* No instance affinity
+* Loss of a node is a non-event
